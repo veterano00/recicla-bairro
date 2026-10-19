@@ -14,10 +14,8 @@ A página principal apresenta orientações para papel, plástico, vidro, metal 
 | `cadastro.html` | Formulário demonstrativo de cadastro com cinco campos obrigatórios. |
 | `login.html` | Formulário demonstrativo de login com e-mail e senha. |
 | `css/style.css` | Estilos das três páginas. |
-| `imagens/` | Ilustrações dos cinco grupos de resíduos e créditos das imagens. |
+| `imagens/` | Ilustrações dos cinco grupos de resíduos. |
 | `validacao/` | Resultados e capturas das validações de HTML e CSS. |
-| `docs/` | Documentação complementar e prévias do site. |
-| `entrega-modelo.txt` | Modelo do arquivo com os links de entrega. |
 | `README.md` | Descrição e estrutura do projeto. |
 
 ## Integrante
