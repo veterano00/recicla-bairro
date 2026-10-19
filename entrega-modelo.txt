@@ -1,0 +1,13 @@
+PROJETO 1 — PROGRAMAÇÃO WEB FRONT-END — 2026/02
+Projeto: Recicla Bairro
+Integrante único: Vinicius Ortiz Sian
+ODS: 12 — Consumo e produção responsáveis
+
+Repositório GitHub: PREENCHER APÓS PUBLICAR
+Site GitHub Pages: PREENCHER APÓS PUBLICAR
+Vídeo (até 3 minutos, com acesso público): PREENCHER APÓS GRAVAR
+
+Currículo: https://veterano00.github.io/curriculo_web_front/
+Prints dos validadores: pasta validacao do repositório
+
+ATENÇÃO: este é um modelo. Preencha os três links e confira os prints antes de enviar ao Moodle.

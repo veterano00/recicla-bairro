@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recicla Bairro | Pequenos gestos, um bairro mais verde</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="limite barra">
+            <a class="marca" href="index.html"><span class="material-icons simbolo">recycling</span> Recicla Bairro<span class="ponto">.</span></a>
+            <nav class="menu">
+                <a href="#materiais">Como separar</a>
+                <a href="#destino">Onde entregar</a>
+                <a href="#projeto">O projeto</a>
+            </nav>
+            <div class="acesso">
+                <a href="login.html">Entrar</a>
+                <a class="botao pequeno" href="cadastro.html">Participar <span class="material-icons">arrow_forward</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Apresentação: Flexbox permite que as colunas quebrem em telas menores. -->
+        <section class="limite apresentacao">
+            <div class="texto-inicial">
+                <p class="etiqueta"><span class="material-icons">eco</span> CUIDAR COMEÇA PERTO DE CASA</p>
+                <h1>Pequenos gestos.<br>Um bairro<br><span class="verde">mais verde.</span></h1>
+                <p class="resumo">Separar os resíduos pode ser mais simples do que parece. Descubra o destino de cada material e faça a sua parte, começando em casa.</p>
+                <a class="botao" href="#materiais">Aprenda a separar <span class="material-icons">arrow_forward</span></a>
+                <p class="nota-inicial">Um guia da comunidade, para a comunidade.</p>
+            </div>
+            <div class="quadro-inicial">
+                <div class="topo-quadro"><span>UM NOVO OLHAR PARA O QUE SOBRA</span><span class="material-icons">recycling</span></div>
+                <div class="ilustracoes-iniciais">
+                    <figure class="figura-inicial papel"><img src="imagens/papel.svg" alt="Jornal representando o papel" width="140" height="140"><figcaption>Papel</figcaption></figure>
+                    <figure class="figura-inicial plastico"><img src="imagens/plastico.svg" alt="Frasco representando o plástico" width="140" height="140"><figcaption>Plástico</figcaption></figure>
+                    <figure class="figura-inicial vidro"><img src="imagens/vidro.svg" alt="Garrafa representando o vidro" width="140" height="140"><figcaption>Vidro</figcaption></figure>
+                </div>
+                <p class="frase-quadro">O que você separa hoje<br>pode ganhar um novo amanhã.</p>
+                <div class="base-quadro"><span>Reduza. Reutilize. Recicle.</span><span class="selo">ODS 12</span></div>
+            </div>
+        </section>
+
+        <div class="faixa">
+            <div class="limite itens-faixa">
+                <p><span class="material-icons">home</span> Comece na sua casa</p>
+                <p><span class="material-icons">recycling</span> Separe com cuidado</p>
+                <p><span class="material-icons">groups</span> Cuide do seu bairro</p>
+            </div>
+        </div>
+
+        <section id="materiais" class="limite secao">
+            <div class="titulo-secao"><div><p class="sobretitulo">01 / GUIA DE SEPARAÇÃO</p><h2>Cada material, um cuidado.</h2></div><p>Conheça cinco grupos de resíduos<br>presentes no nosso dia a dia.</p></div>
+            <div class="materiais">
+                <article class="material">
+                    <figure class="imagem-material papel"><img src="imagens/papel.svg" alt="Jornal de papel" width="130" height="130"><figcaption>AZUL</figcaption></figure>
+                    <div class="conteudo-material"><h3>Papel</h3><p>Jornais, folhas e caixas de papelão.</p><p class="dica">Mantenha seco e separado dos restos de comida.</p><span class="categoria">RECICLÁVEL SECO</span></div>
+                </article>
+                <article class="material">
+                    <figure class="imagem-material plastico"><img src="imagens/plastico.svg" alt="Frasco de plástico" width="130" height="130"><figcaption>VERMELHO</figcaption></figure>
+                    <div class="conteudo-material"><h3>Plástico</h3><p>Garrafas PET, potes e embalagens.</p><p class="dica">Retire os resíduos e confira o que a coleta aceita.</p><span class="categoria">RECICLÁVEL SECO</span></div>
+                </article>
+                <article class="material">
+                    <figure class="imagem-material vidro"><img src="imagens/vidro.svg" alt="Garrafa de vidro verde" width="130" height="130"><figcaption>VERDE</figcaption></figure>
+                    <div class="conteudo-material"><h3>Vidro</h3><p>Garrafas e potes de alimentos.</p><p class="dica">Proteja e identifique cacos para evitar acidentes.</p><span class="categoria">RECICLÁVEL SECO</span></div>
+                </article>
+                <article class="material">
+                    <figure class="imagem-material metal"><img src="imagens/metal.svg" alt="Lata de conserva de metal" width="130" height="130"><figcaption>AMARELO</figcaption></figure>
+                    <div class="conteudo-material"><h3>Metal</h3><p>Latas de bebidas e de conservas.</p><p class="dica">Esvazie as embalagens antes de encaminhar.</p><span class="categoria">RECICLÁVEL SECO</span></div>
+                </article>
+                <article class="material">
+                    <figure class="imagem-material organico"><img src="imagens/organico.svg" alt="Banana com a casca aberta" width="130" height="130"><figcaption>MARROM</figcaption></figure>
+                    <div class="conteudo-material"><h3>Orgânicos</h3><p>Cascas de frutas e restos de vegetais.</p><p class="dica">Separe dos recicláveis. Conheça a compostagem.</p><span class="categoria">OUTRO DESTINO</span></div>
+                </article>
+            </div>
+            <p class="observacao"><span class="material-icons">info</span> Nem todo resíduo tem o mesmo destino. A aceitação dos materiais varia conforme o serviço de coleta da sua cidade.</p>
+        </section>
+
+        <section id="destino" class="fundo-claro">
+            <div class="limite secao">
+                <p class="sobretitulo">02 / DO HÁBITO AO DESTINO CERTO</p>
+                <h2>Três passos para começar.</h2>
+                <div class="passos">
+                    <article class="passo"><span class="numero">1</span><h3>Separe em casa</h3><p>Reserve um recipiente para os recicláveis secos. Deixe os orgânicos e os rejeitos separados.</p></article>
+                    <article class="passo"><span class="numero">2</span><h3>Prepare os materiais</h3><p>Retire sobras das embalagens e preserve o papel seco. A separação facilita o trabalho de quem faz a triagem.</p></article>
+                    <article class="passo"><span class="numero">3</span><h3>Consulte a coleta local</h3><p>Procure no site da prefeitura os dias de coleta seletiva, ecopontos e cooperativas. Confirme os materiais aceitos antes de sair.</p></article>
+                </div>
+                <div class="orientacao"><span class="material-icons">place</span><p><span class="negrito">Ainda não sabe onde entregar?</span> Consulte o serviço de limpeza urbana da sua cidade. Este guia não agenda nem realiza coletas.</p></div>
+            </div>
+        </section>
+
+        <section id="projeto" class="limite secao sobre">
+            <div class="bloco-ods"><p class="ods-numero">12</p><h3>Consumo e produção<br>responsáveis</h3><span class="material-icons">all_inclusive</span><p>OBJETIVO DE DESENVOLVIMENTO SUSTENTÁVEL</p></div>
+            <div class="texto-sobre"><p class="sobretitulo">03 / SOBRE O RECICLA BAIRRO</p><h2>Uma ideia simples.<br>Um cuidado coletivo.</h2><p>O Recicla Bairro é uma proposta de serviço educativo para moradores que querem separar melhor seus resíduos e encontrar orientação sobre a coleta local.</p><p>O projeto se relaciona com o ODS 12, especialmente a meta 12.5: reduzir a geração de resíduos por meio da prevenção, redução, reciclagem e reúso.</p><p>Antes de descartar, pense se é possível consumir menos ou reutilizar. Reciclar é uma parte desse cuidado.</p><a class="link-texto" href="https://brasil.un.org/pt-br/sdgs/12">Conheça o ODS 12 no site da ONU <span class="material-icons">arrow_forward</span></a></div>
+        </section>
+
+        <section class="limite convite"><div><p class="sobretitulo">A MUDANÇA PODE COMEÇAR COM VOCÊ</p><h2>Vamos cuidar do nosso bairro?</h2><p>Conheça o cadastro demonstrativo do Recicla Bairro.</p></div><a class="botao claro" href="cadastro.html">Quero participar <span class="material-icons">arrow_forward</span></a></section>
+
+        <section class="limite fontes"><h2>Para continuar aprendendo</h2><div class="links-fontes"><a href="https://www.gov.br/mma/pt-br/assuntos/educacao-ambiental/glossario-ea/o-que-e-reciclagem">Reciclagem — Ministério do Meio Ambiente ↗</a><a href="https://brasil.un.org/pt-br/sdgs/12">ODS 12 — Nações Unidas ↗</a><a href="https://prefeitura.pbh.gov.br/slu/informacoes/reciclavel/levs">Exemplo de orientação municipal — Belo Horizonte ↗</a></div></section>
+    </main>
+
+    <footer class="rodape"><div class="limite rodape-conteudo"><div><a class="marca" href="index.html"><span class="material-icons simbolo">recycling</span> Recicla Bairro<span class="ponto">.</span></a><p>Pequenos gestos. Um bairro mais verde.</p></div><div><p>Projeto acadêmico · Programação Web Front-End · 2026</p><p>Desenvolvido por <a href="https://veterano00.github.io/curriculo_web_front/">Vinicius Ortiz Sian — currículo ↗</a></p><p class="creditos">Ilustrações: <a href="https://openmoji.org/">OpenMoji</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p></div></div></footer>
+</body>
+</html>

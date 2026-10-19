@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Recicla Bairro</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="pagina-formulario">
+    <header class="cabecalho"><div class="limite barra"><a class="marca" href="index.html"><span class="material-icons simbolo">recycling</span> Recicla Bairro<span class="ponto">.</span></a><nav class="menu"><a href="index.html">Voltar ao início <span class="seta">↗</span></a></nav></div></header>
+    <main class="limite acesso-principal">
+        <section class="mensagem-acesso">
+            <p class="etiqueta"><span class="material-icons">eco</span> BOM TER VOCÊ POR AQUI</p>
+            <h1>Cuidar do bairro<br>é um hábito<br><span class="verde">de todos nós.</span></h1>
+            <p>Volte ao guia e descubra como dar um destino melhor aos resíduos do dia a dia.</p>
+            <div class="lembrete"><span class="material-icons">recycling</span><p>Reduza. Reutilize. Recicle.<br>Um gesto de cada vez.</p></div>
+            <a class="link-texto" href="index.html#projeto">Conheça a proposta do projeto →</a>
+        </section>
+        <section class="painel-formulario">
+            <p class="sobretitulo">BEM-VINDO AO RECICLA BAIRRO</p>
+            <h2>Entre e participe</h2>
+            <p>Preencha os campos para acessar a página principal.</p>
+            <!-- O formulário apenas navega para index.html. Não há autenticação.
+                 Os campos sem name evitam expor e-mail e senha na URL. -->
+            <form action="index.html" method="get" class="formulario">
+                <div class="campo"><label for="email">E-mail</label><input type="email" id="email" placeholder="voce@exemplo.com" required></div>
+                <div class="campo"><label for="senha">Senha</label><input type="password" id="senha" placeholder="Use uma senha fictícia" required></div>
+                <input type="submit" class="botao enviar" value="Entrar no Recicla Bairro →">
+            </form>
+            <p class="aviso-formulario">Acesso demonstrativo: não há verificação de conta. Use um e-mail de exemplo e uma senha fictícia.</p>
+            <p class="troca-formulario">Primeira vez aqui? <a href="cadastro.html">Criar cadastro</a></p>
+        </section>
+    </main>
+    <footer class="rodape rodape-formulario"><div class="limite rodape-conteudo"><p>Recicla Bairro · ODS 12 · Projeto acadêmico</p><a href="https://veterano00.github.io/curriculo_web_front/">Vinicius Ortiz Sian — currículo ↗</a></div></footer>
+</body>
+</html>

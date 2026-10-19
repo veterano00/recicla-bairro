@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro | Recicla Bairro</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="pagina-formulario">
+    <header class="cabecalho"><div class="limite barra"><a class="marca" href="index.html"><span class="material-icons simbolo">recycling</span> Recicla Bairro<span class="ponto">.</span></a><nav class="menu"><a href="index.html">Voltar ao início <span class="seta">↗</span></a></nav></div></header>
+    <main class="limite acesso-principal">
+        <section class="mensagem-acesso">
+            <p class="etiqueta"><span class="material-icons">eco</span> UM HÁBITO QUE FAZ DIFERENÇA</p>
+            <h1>Um bairro<br>mais verde<br><span class="verde">começa com você.</span></h1>
+            <p>Separar, reutilizar e consumir com consciência: pequenas escolhas que fazem parte do cuidado com a comunidade.</p>
+            <div class="lembrete"><span class="material-icons">recycling</span><p>Conhecimento é o primeiro passo.<br>O próximo pode começar na sua casa.</p></div>
+            <a class="link-texto" href="index.html#materiais">Explorar o guia de separação →</a>
+        </section>
+        <section class="painel-formulario">
+            <p class="sobretitulo">FAÇA PARTE DESSA IDEIA</p>
+            <h2>Crie seu cadastro</h2>
+            <p>Preencha os cinco campos para continuar.</p>
+            <!-- Protótipo estático. Sem name, os valores não seguem na URL.
+                 action define o destino solicitado pelo enunciado. -->
+            <form action="login.html" method="get" class="formulario">
+                <div class="campo"><label for="nome">Nome completo</label><input type="text" id="nome" placeholder="Seu nome completo" required></div>
+                <div class="campo"><label for="email">E-mail</label><input type="email" id="email" placeholder="voce@exemplo.com" required></div>
+                <div class="campo"><label for="cidade">Cidade</label><input type="text" id="cidade" placeholder="Em qual cidade você mora?" required></div>
+                <div class="campo"><label for="bairro">Bairro</label><input type="text" id="bairro" placeholder="Nome do seu bairro" required></div>
+                <div class="campo"><label for="senha">Senha</label><input type="password" id="senha" placeholder="Use uma senha fictícia" required></div>
+                <input type="submit" class="botao enviar" value="Cadastrar e ir para o login →">
+            </form>
+            <p class="aviso-formulario">Demonstração acadêmica: os dados não são enviados nem armazenados. Use informações fictícias.</p>
+            <p class="troca-formulario">Já passou pelo cadastro? <a href="login.html">Entrar</a></p>
+        </section>
+    </main>
+    <footer class="rodape rodape-formulario"><div class="limite rodape-conteudo"><p>Recicla Bairro · ODS 12 · Projeto acadêmico</p><a href="https://veterano00.github.io/curriculo_web_front/">Vinicius Ortiz Sian — currículo ↗</a></div></footer>
+</body>
+</html>

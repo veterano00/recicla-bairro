@@ -1,0 +1,129 @@
+/* Recicla Bairro — Vinicius Ortiz Sian
+   CSS externo. Seletores, cores e fontes: Aula 1 de CSS.
+   Caixas, bordas e espaçamentos: Aula 2 de CSS.
+   Organização e quebra de colunas: Flexbox, Aula 3 de CSS.
+   Organização dos campos: Grid, Aula 4 de CSS. */
+
+* { box-sizing: border-box; }
+body { margin: 0; background-color: #fcfcf7; color: #263d30; font-family: Arial, Helvetica, sans-serif; font-size: 16px; }
+h1, h2, h3, .marca, .botao, .frase-quadro { font-family: "DM Sans", Arial, sans-serif; }
+h1 { font-size: 3.2em; margin: 18px 0 24px; }
+h2 { font-size: 2em; margin: 10px 0 20px; }
+h3 { font-size: 1.25em; margin: 16px 0 12px; }
+p { margin: 0 0 18px; }
+a { color: #245b3b; }
+a:hover { color: #162e20; text-decoration: underline; }
+img { max-width: 100%; }
+.limite { width: 90%; max-width: 1160px; margin: 0 auto; }
+.cabecalho { border-bottom: 1px solid #dfe6dc; background-color: #fcfcf7; }
+.barra { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; padding: 22px 0; }
+.marca { display: flex; align-items: center; gap: 6px; color: #203d2d; font-size: 1.35em; font-weight: bold; text-decoration: none; }
+.marca .simbolo { font-size: 30px; }
+.ponto { color: #598c3c; margin-left: -5px; }
+.menu, .acesso { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; }
+.menu a, .acesso a { text-decoration: none; font-size: 0.9em; }
+.menu a:hover, .acesso a:hover { text-decoration: underline; }
+.botao { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 17px 24px; background-color: #285d3d; border: 1px solid #285d3d; border-radius: 8px; color: #ffffff; text-decoration: none; font-size: 1em; font-weight: bold; text-align: center; }
+.botao:hover { background-color: #1e4830; color: #ffffff; text-decoration: none; }
+.botao.pequeno { padding: 11px 17px; }
+.botao .material-icons { font-size: 20px; }
+.apresentacao { display: flex; flex-wrap: wrap; align-items: center; gap: 50px; padding: 60px 0; }
+.texto-inicial { flex: 1 1 400px; min-width: 0; }
+.etiqueta { display: flex; align-items: center; gap: 8px; color: #426b3d; font-size: 0.75em; font-weight: bold; }
+.etiqueta .material-icons { font-size: 20px; }
+.verde { color: #508239; }
+.resumo { max-width: 440px; color: #536455; font-size: 1.1em; margin-bottom: 28px; }
+.nota-inicial { margin: 20px 0 0; font-size: 0.8em; color: #657260; }
+.quadro-inicial { flex: 1 1 440px; min-width: 0; background-color: #e8eedb; border: 1px solid #d5dec5; border-radius: 22px; padding: 28px; }
+.topo-quadro, .base-quadro { display: flex; align-items: center; justify-content: space-between; gap: 14px; font-size: 0.7em; font-weight: bold; }
+.topo-quadro .material-icons { font-size: 32px; }
+.ilustracoes-iniciais { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 35px 0 30px; }
+.figura-inicial { flex: 1 1 95px; margin: 0; padding: 12px 2px; text-align: center; border: 1px solid #c7d3ba; border-radius: 65px 65px 12px 12px; }
+.figura-inicial img { width: 110px; height: auto; }
+.figura-inicial figcaption { font-size: 0.75em; font-weight: bold; }
+.frase-quadro { text-align: center; font-size: 1.65em; font-weight: bold; margin-bottom: 30px; }
+.base-quadro { border-top: 1px solid #c7d3ba; padding-top: 18px; }
+.selo { background-color: #fcfcf7; border-radius: 20px; padding: 8px 12px; }
+.faixa { border-top: 1px solid #dfe6dc; border-bottom: 1px solid #dfe6dc; background-color: #f2f4eb; }
+.itens-faixa { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; padding: 23px 0; }
+.itens-faixa p { display: flex; align-items: center; gap: 12px; margin: 0; font-size: 0.85em; }
+.itens-faixa .material-icons { color: #507e3f; }
+.secao { padding: 65px 0; }
+.sobretitulo { font-size: 0.72em; font-weight: bold; color: #5d704f; margin-bottom: 12px; }
+.titulo-secao { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 24px; }
+.titulo-secao p { color: #61705d; }
+.titulo-secao .sobretitulo { margin-bottom: 12px; }
+.materiais { display: flex; flex-wrap: wrap; gap: 15px; }
+.material { flex: 1 1 190px; min-width: 0; border: 1px solid #dce2d7; border-radius: 12px; background-color: #ffffff; overflow: hidden; }
+.imagem-material { margin: 0; padding: 20px 12px 15px; text-align: center; }
+.imagem-material img { display: block; margin: 0 auto 10px; }
+.imagem-material figcaption { font-size: 0.65em; font-weight: bold; }
+.papel { background-color: #e2edf4; color: #205b83; }
+.plastico { background-color: #f6e5df; color: #934337; }
+.vidro { background-color: #dfead6; color: #37692e; }
+.metal { background-color: #faf0c9; color: #775709; }
+.organico { background-color: #eee2d6; color: #784b2e; }
+.conteudo-material { padding: 4px 18px 22px; }
+.conteudo-material p { color: #566450; font-size: 0.9em; min-height: 36px; }
+.conteudo-material .dica { border-top: 1px solid #e5e8df; padding-top: 14px; min-height: 64px; }
+.categoria { font-size: 0.58em; font-weight: bold; color: #637456; }
+.observacao { display: flex; align-items: center; gap: 10px; margin: 22px 0 0; color: #5c6958; font-size: 0.85em; }
+.observacao .material-icons { font-size: 20px; }
+.fundo-claro { background-color: #f0f3e9; }
+.passos { display: flex; flex-wrap: wrap; gap: 35px; margin-top: 30px; }
+.passo { flex: 1 1 260px; }
+.numero { display: flex; justify-content: center; align-items: center; width: 42px; height: 42px; border: 1px solid #b4c1a5; border-radius: 50%; color: #3d6534; font-weight: bold; }
+.passo p { color: #566450; }
+.orientacao { display: flex; gap: 14px; align-items: center; border-top: 1px solid #d3dcc9; margin-top: 24px; padding-top: 24px; }
+.orientacao p { margin: 0; font-size: 0.9em; }
+.negrito { font-weight: bold; }
+.sobre { display: flex; flex-wrap: wrap; align-items: center; gap: 55px; }
+.bloco-ods { flex: 1 1 250px; background-color: #a86813; color: #ffffff; border-radius: 12px; padding: 30px; max-width: 330px; }
+.ods-numero { font-family: "DM Sans", Arial, sans-serif; font-size: 4em; font-weight: bold; margin: 0; }
+.bloco-ods h3 { margin-top: 0; }
+.bloco-ods .material-icons { font-size: 95px; display: block; text-align: center; margin: 20px 0; }
+.bloco-ods p { font-size: 0.7em; margin-bottom: 0; }
+.bloco-ods .ods-numero { font-size: 4em; }
+.texto-sobre { flex: 2 1 350px; min-width: 0; }
+.texto-sobre p { color: #596751; }
+.link-texto { display: flex; gap: 10px; align-items: center; font-size: 0.9em; font-weight: bold; }
+.link-texto .material-icons { font-size: 20px; }
+.convite { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 28px; border-radius: 16px; padding: 35px; background-color: #254c35; color: #ffffff; }
+.convite .sobretitulo { color: #d1dfbf; }
+.convite h2 { font-size: 1.7em; }
+.convite p { margin-bottom: 0; }
+.convite .sobretitulo { margin-bottom: 12px; }
+.botao.claro { background-color: #e7efd2; color: #284932; border-color: #e7efd2; }
+.botao.claro:hover { background-color: #d8e5b9; border-color: #d8e5b9; }
+.fontes { padding: 45px 0 55px; }
+.fontes h2 { font-size: 1.1em; }
+.links-fontes { display: flex; flex-wrap: wrap; gap: 18px 30px; font-size: 0.8em; }
+.rodape { border-top: 1px solid #d8e1d1; background-color: #f2f4eb; padding: 32px 0; }
+.rodape-conteudo { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 24px; }
+.rodape p { font-size: 0.8em; margin: 10px 0 0; color: #58694e; }
+.rodape .creditos { font-size: 0.7em; }
+/* Formulários: tags e validação nativa ensinadas na Aula 3 de HTML. */
+.pagina-formulario { display: flex; flex-direction: column; }
+.acesso-principal { display: flex; flex-wrap: wrap; align-items: center; gap: 65px; padding: 50px 0; flex-grow: 1; }
+.mensagem-acesso { flex: 1 1 400px; min-width: 0; }
+.mensagem-acesso h1 { font-size: 2.8em; }
+.mensagem-acesso p { max-width: 430px; color: #5a6a51; }
+.mensagem-acesso .etiqueta { color: #426b3d; }
+.lembrete { display: flex; align-items: center; gap: 16px; margin: 35px 0; }
+.lembrete .material-icons { font-size: 48px; color: #5b863e; }
+.lembrete p { margin: 0; font-size: 0.9em; }
+.painel-formulario { flex: 1 1 380px; min-width: 0; max-width: 500px; padding: 32px; background-color: #ffffff; border: 1px solid #d9e1d2; border-radius: 16px; }
+.painel-formulario h2 { margin-bottom: 12px; }
+.painel-formulario p { font-size: 0.9em; color: #61705a; }
+.painel-formulario .sobretitulo { font-size: 0.7em; }
+.formulario { display: grid; grid-template-columns: 1fr; gap: 17px; margin-top: 26px; }
+.campo label { display: block; margin-bottom: 8px; font-size: 0.85em; font-weight: bold; }
+.campo input { display: block; width: 100%; min-width: 0; padding: 13px 12px; border: 1px solid #b9c7b1; border-radius: 6px; background-color: #fcfdf9; color: #263d30; font-family: Arial, Helvetica, sans-serif; font-size: 0.9em; }
+.enviar { width: 100%; padding: 15px 8px; font-size: 0.9em; }
+.painel-formulario .aviso-formulario { margin-top: 18px; font-size: 0.75em; }
+.troca-formulario { text-align: center; border-top: 1px solid #e0e6d9; padding-top: 20px; margin: 22px 0 0; }
+.troca-formulario a { font-weight: bold; }
+.rodape-formulario a { font-size: 0.8em; }
+.seta { margin-left: 8px; }
+
+.texto-inicial .botao { max-width: 260px; }
