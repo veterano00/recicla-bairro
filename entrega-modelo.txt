@@ -3,11 +3,11 @@ Projeto: Recicla Bairro
 Integrante único: Vinicius Ortiz Sian
 ODS: 12 — Consumo e produção responsáveis
 
-Repositório GitHub: PREENCHER APÓS PUBLICAR
-Site GitHub Pages: PREENCHER APÓS PUBLICAR
+Repositório GitHub: https://github.com/veterano00/recicla-bairro
+Site GitHub Pages: https://veterano00.github.io/recicla-bairro/
 Vídeo (até 3 minutos, com acesso público): PREENCHER APÓS GRAVAR
 
 Currículo: https://veterano00.github.io/curriculo_web_front/
 Prints dos validadores: pasta validacao do repositório
 
-ATENÇÃO: este é um modelo. Preencha os três links e confira os prints antes de enviar ao Moodle.
+ATENÇÃO: este é um modelo. Preencha o link do vídeo e confira os prints antes de enviar ao Moodle.

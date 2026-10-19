@@ -2,8 +2,13 @@
 
 Projeto 1 da disciplina **Programação Web Front-End — 2026/02**, da UTFPR, professora Rosangela Marquesone.
 
-**Integrante:** Vinicius Ortiz Sian (trabalho individual).  
+**Integrante:** Vinicius Ortiz Sian (trabalho individual).
+
 **Currículo:** [veterano00.github.io/curriculo_web_front](https://veterano00.github.io/curriculo_web_front/).
+
+**Site:** [veterano00.github.io/recicla-bairro](https://veterano00.github.io/recicla-bairro/).
+
+**Código:** [github.com/veterano00/recicla-bairro](https://github.com/veterano00/recicla-bairro).
 
 ## Proposta
 
@@ -84,11 +89,11 @@ As imagens e o CSS estão no projeto. É necessária conexão com a internet par
 | 2 fontes, uma externa | DM Sans (Google Fonts) e Arial |
 | Currículo no rodapé | Link de Vinicius Ortiz Sian |
 
-Consulte [os registros de validação](validacao/README.md) e [o checklist de entrega](docs/ENTREGA.md) para distinguir a implementação concluída das etapas de publicação e apresentação.
+Consulte [os registros de validação](validacao/README.md) e [o checklist de entrega](docs/ENTREGA.md) para preparar o vídeo e o envio no Moodle.
 
 ## Publicação no GitHub Pages
 
-Os arquivos estão preparados para publicação estática pela raiz do repositório. O site ainda não foi publicado a partir desta pasta. O passo a passo está em [docs/ENTREGA.md](docs/ENTREGA.md).
+O site é publicado pela pasta raiz da branch `main` no [GitHub Pages](https://veterano00.github.io/recicla-bairro/).
 
 ## Fontes e créditos
 
@@ -100,4 +105,4 @@ Os arquivos estão preparados para publicação estática pela raiz do repositó
 
 ## Apresentação
 
-Há um [roteiro de até 3 minutos](docs/ROTEIRO-VIDEO.md), que deve ser estudado e adaptado à sua maneira de falar. O vídeo precisa mostrar o autor, as três páginas e a estrutura do código. A gravação e a entrega no Moodle ainda precisam ser feitas.
+Há um [roteiro de até 3 minutos](docs/ROTEIRO-VIDEO.md), que deve ser estudado e adaptado à sua maneira de falar. O vídeo precisa mostrar o autor, as três páginas e a estrutura do código. A gravação e a entrega no Moodle ainda precisam ser feitas pelo autor.
